@@ -1,0 +1,22 @@
+.text {
+    font-size: 50px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    transition: ease-in-out 0.2s;
+}
+.plane-image {
+    animation: infinite 2s linear;
+    border: blue 10px solid;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    transition: border 0.2s;
+    }
+.plane-image:hover {
+        border: 15px solid black;
+}
